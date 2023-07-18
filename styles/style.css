@@ -167,3 +167,64 @@ body {
   width: 100%;
 }
 /* Banner ends */
+
+/* Main Section */
+
+/* Online games start */
+
+.online-games {
+  margin: 0 240px;
+}
+
+.games-text {
+  text-align: center;
+}
+
+.games-heading {
+  color: #0b0223;
+  font-size: var(--heading-font-size);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.games-description {
+  color: #534c64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 23px;
+}
+
+.card {
+  max-width: 340px;
+}
+
+.card:hover .hidden-items {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.hidden-items {
+  text-align: center;
+  position: relative;
+  top: -50%;
+  visibility: hidden;
+}
+
+.hidden-items p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ff42a5;
+}
+
+.hidden-items .fa-circle-play {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+/* Online games end */
