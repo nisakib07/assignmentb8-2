@@ -12,6 +12,57 @@
     flex-direction: column;
     margin-top: 50px;
   }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .banner-text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .banner-text {
+    width: 100%;
+    padding: 20px 50px;
+  }
+
+  .punch-lines p {
+    font-size: 0.8rem;
+  }
+
+  .banner-heading {
+    font-size: 1.2rem;
+  }
+
+  .btn-container {
+    display: flex;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 0.5rem;
+  }
+
+  .btn-secondary {
+    padding: 10px 20px;
+    font-size: 0.5rem;
+  }
+
+  .goat {
+    font-size: 2.5rem;
+  }
+
+  .banner-img {
+    width: 80%;
+    margin: 0 40px;
+  }
 }
 
 /* For Tablet Device */
@@ -27,5 +78,39 @@
   .menu-items-container {
     flex-direction: column;
     margin-top: 50px;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .banner-text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .banner-text {
+    width: 100%;
+    padding: 30px 70px;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  .btn-secondary {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+  }
+  .banner-img {
+    width: 80%;
+    margin: 0 100px;
   }
 }

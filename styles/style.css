@@ -5,7 +5,6 @@
 /* Shared CSS */
 
 :root {
-  --primary-font: Work Sans;
   --heading-font-size: 3rem;
   --para-font-size: 1.125rem;
 }
@@ -13,6 +12,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: Work Sans;
 }
 
 /* HEADER Section */
@@ -38,7 +41,6 @@
 }
 
 .logo-text {
-  font-family: var(--primary-font);
   font-size: 2.813rem;
 }
 
@@ -58,7 +60,6 @@
 .menu-items-container a {
   text-decoration: none;
   color: #3c354f;
-  font-family: var(--primary-font);
   font-size: var(--para-font-size);
   font-style: normal;
   font-weight: 500;
@@ -68,7 +69,6 @@
 .follow-us {
   display: flex;
   color: #3c354f;
-  font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -79,3 +79,91 @@
 }
 
 /* navbar ends */
+
+/* Banner starts */
+.banner-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 240px 0 0;
+  gap: 100px;
+}
+.banner-text-container {
+  width: 50%;
+}
+.banner-text {
+  width: 100%;
+  padding: 140px 0 140px 240px;
+  background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-heading {
+  color: #0b0223;
+  font-size: var(--heading-font-size);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.goat {
+  font-size: 5.938rem;
+  font-weight: 800;
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.punch-lines p {
+  display: flex;
+  align-items: center;
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.fa-circle-play {
+  color: #ff42a5;
+  margin-right: 10px;
+}
+
+.fa-download {
+  color: #ff42a5;
+  margin-right: 10px;
+}
+
+.fa-user-group {
+  color: #ff42a5;
+  margin-right: 6px;
+}
+
+.btn-primary {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background-color: #ff42a5;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background-color: #4ec5f7;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: 24px;
+}
+
+.banner-img {
+  width: 50%;
+}
+
+.banner-img img {
+  width: 100%;
+}
+/* Banner ends */
