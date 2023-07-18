@@ -1,0 +1,81 @@
+/* Font family from google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* Shared CSS */
+
+:root {
+  --primary-font: Work Sans;
+  --heading-font-size: 3rem;
+  --para-font-size: 1.125rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER Section */
+
+/* navbar starts */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 240px;
+  padding: 40px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  width: 85px;
+  height: 40px;
+}
+
+.logo-text {
+  font-family: var(--primary-font);
+  font-size: 2.813rem;
+}
+
+.g {
+  color: #ff42a5;
+}
+.menu-items-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-items-container li {
+  list-style: none;
+}
+
+.menu-items-container a {
+  text-decoration: none;
+  color: #3c354f;
+  font-family: var(--primary-font);
+  font-size: var(--para-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.follow-us {
+  display: flex;
+  color: #3c354f;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  gap: 24px;
+  border-radius: 8px;
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 20px;
+}
+
+/* navbar ends */
