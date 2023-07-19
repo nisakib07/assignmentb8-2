@@ -17,7 +17,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 30px 0;
     padding: 0;
     gap: 10px;
   }
@@ -63,6 +63,29 @@
     width: 80%;
     margin: 0 40px;
   }
+
+  .online-games {
+    margin: 0 20px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .games-heading {
+    color: #0b0223;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .games-description {
+    color: #534c64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+  }
 }
 
 /* For Tablet Device */
@@ -84,7 +107,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 50px 0;
     padding: 0;
     gap: 10px;
   }
@@ -92,7 +115,7 @@
   .banner-text-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px 40px;
   }
 
   .banner-text {
@@ -111,6 +134,28 @@
   }
   .banner-img {
     width: 80%;
-    margin: 0 100px;
+  }
+
+  .online-games {
+    margin: 0px 40px;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .games-heading {
+    color: #0b0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .games-description {
+    color: #534c64;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 48px;
   }
 }

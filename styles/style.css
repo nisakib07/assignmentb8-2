@@ -173,7 +173,7 @@ body {
 /* Online games start */
 
 .online-games {
-  margin: 0 240px;
+  margin: 160px 240px 120px;
 }
 
 .games-text {
@@ -194,19 +194,31 @@ body {
   margin-bottom: 48px;
 }
 
+.funny {
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 23px;
 }
 
-.card {
-  max-width: 340px;
+.card-img {
+  width: 100%;
 }
 
+.card:hover {
+  cursor: pointer;
+}
 .card:hover .hidden-items {
   visibility: visible;
-  cursor: pointer;
+}
+
+.card:hover img {
+  filter: brightness(60%);
 }
 
 .hidden-items {
@@ -226,5 +238,12 @@ body {
   color: white;
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+.card-desc {
+  margin-top: 24px;
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 /* Online games end */
