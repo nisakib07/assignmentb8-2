@@ -247,3 +247,58 @@ body {
   font-weight: 500;
 }
 /* Online games end */
+
+/* Instant Play Section Starts */
+
+.instant-play {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  gap: 200px;
+  margin: 0 240px;
+  color: #0b0223;
+}
+
+.instant-text {
+  width: 50%;
+}
+
+.heading {
+  font-size: var(--heading-font-size);
+  font-weight: 700;
+  color: #0b0223;
+  margin-bottom: 24px;
+}
+
+.instant-purple-heading {
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.instant-desc {
+  color: #534c64;
+  font-size: var(--para-font-size);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.instant-img {
+  width: 50%;
+  position: relative;
+}
+
+.inst-main-img {
+  width: 100%;
+  display: block;
+}
+
+.pos-img {
+  width: 40%;
+  position: absolute;
+  margin-top: -35%;
+  left: -20%;
+}
+
+/* Instant Play Section Ends */
