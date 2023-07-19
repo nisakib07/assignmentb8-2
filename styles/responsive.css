@@ -100,7 +100,7 @@
     text-align: center;
   }
 
-  .heading {
+  .inst-heading {
     font-size: 1.4rem;
     font-weight: 700;
     color: #0b0223;
@@ -123,22 +123,25 @@
   }
 
   .icons {
-    margin: 70px 20px;
+    margin: 70px 0px;
   }
   .icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    flex-wrap: nowrap;
-    flex-direction: column;
   }
   .icon {
     gap: 5px;
-    text-align: left;
+  }
+
+  .icon-img {
+    width: 25px;
   }
 
   .icon-name {
     color: #0b0223;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.5rem;
+    font-weight: 500;
   }
 
   footer {
@@ -147,6 +150,10 @@
     background: #0b0223;
     color: white;
     padding: 20px;
+  }
+
+  .footer-logo-text {
+    font-size: 2rem;
   }
 
   .foot-links-container {
@@ -264,7 +271,7 @@
     text-align: center;
   }
 
-  .heading {
+  .inst-heading {
     font-size: 2rem;
     font-weight: 700;
     color: #0b0223;
