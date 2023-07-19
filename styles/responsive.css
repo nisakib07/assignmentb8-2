@@ -121,6 +121,28 @@
   .pos-img {
     left: -20%;
   }
+
+  .icons {
+    margin: 70px 20px;
+  }
+  .icons-container {
+    gap: 10px;
+    /* justify-content: left; */
+  }
+  .icon {
+    gap: 5px;
+    text-align: left;
+  }
+
+  .icon-name {
+    color: #0b0223;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .icon-img {
+    width: 15%;
+  }
 }
 
 /* For Tablet Device */
@@ -226,5 +248,24 @@
   }
   .pos-img {
     left: -20%;
+  }
+  .icons {
+    margin: 100px 0;
+  }
+  .icons-container {
+    gap: 10px;
+  }
+  .icon {
+    gap: 5px;
+  }
+
+  .icon-name {
+    color: #0b0223;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .icon-img {
+    width: 20%;
   }
 }

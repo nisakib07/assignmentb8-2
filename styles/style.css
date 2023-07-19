@@ -208,6 +208,7 @@ body {
 
 .card-img {
   width: 100%;
+  position: relative;
 }
 
 .card:hover {
@@ -271,10 +272,10 @@ body {
 }
 
 .instant-purple-heading {
-  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .instant-desc {
@@ -302,3 +303,39 @@ body {
 }
 
 /* Instant Play Section Ends */
+
+/* Icons Section starts */
+.icons {
+  margin: 130px 240px 0;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.icon:hover {
+  border-color: #ff42a5;
+  cursor: pointer;
+}
+
+.icon-name {
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.icon:hover .icon-name {
+  color: #ff42a5;
+}
+/* Icons Section ends */
